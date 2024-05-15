@@ -1,0 +1,79 @@
+@import './null.scss';
+
+/////////////////////////////////////////////////////
+///import                                         ///
+/////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////
+///variables
+$fontFamaliMontserrat: "Montserrat", sans-serif;
+///end-variables
+/////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////
+///global
+
+///end-global
+/////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////
+///BODY 
+
+body{
+    background-color: #B8BEBF;
+}
+
+h2,p{
+    display: inline-block;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    background-color: #D2D8D9;
+    width: 600px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: $fontFamaliMontserrat;
+    font-size: 20px;
+}
+.conteiner_content{
+    // 
+    align-self: center;
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.cards{
+    text-align: center;
+    width: 650px;
+}
+
+.user-card{
+    width: 680px;
+}
+
+
+
+button{
+    background-color: #97A4A6;
+    font-family: $fontFamaliMontserrat;
+
+    color: #F2F2F2;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 30px;
+    transition-duration: 1s;
+    transition-property: all;
+
+    &:hover{
+        background-color:  #161811;
+    }
+
+}
+
+///END_BODY                                     
+////////////////////////////////////////////////////
